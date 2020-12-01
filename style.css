@@ -1,0 +1,273 @@
+body
+	{
+	margin: auto;
+	padding: auto;
+	margin: 0px;
+	}
+		
+
+
+#slider 
+	{
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 400px;
+	}
+
+#slides
+	{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    max-height: 100%;
+	}
+
+#slides figure
+	{
+    display: inline-block;
+    width: 100vw;
+    max-height: 100%;
+    margin: 0;
+	}
+
+#slides figure img
+	{
+    width: 100%;
+    /*Centrer l'image verticalement si celle-ci ne peut être affichée totalement*/
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+	}
+
+#slides figure figcaption
+	{
+    position: absolute;
+    bottom: 0;
+    padding: 2.5em 0;
+    text-align: center;
+    width: inherit;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+	}
+@keyframes slide
+	{
+	0%, 20%, 100%
+		{
+        left: 0; /*1ère image*/
+		}
+    35%, 50%
+		{
+        left: -100vw; /*2ème image*/
+		}
+    70%, 95%
+		{
+        left: -200vw; /*3ème image*/
+		}
+	}
+#slides
+	{
+    /*... Code précédent ...*/
+    /*CSS3 keyframes animation*/
+    animation-name: slide;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+	}	
+#slides
+	{
+    animation: slide 08s infinite ease-in-out forwards;
+	}
+#slides:hover
+	{
+    animation-play-state: paused; /* Mise en pause de l'animation */
+	}
+
+
+
+
+
+
+	
+a
+	{
+	text-decoration:none;
+	color: white
+	}
+header
+	{
+	text-align: center;
+	background-color: black;
+	margin: auto;
+	padding: auto;
+	}
+.tit
+	{
+	padding-top: 50px;
+	}
+.titre, .sous-titre, .tel
+	{
+	color: white;
+	}
+.logo
+	{
+	margin-left: 950px;
+	margin-bottom: -50px;
+	margin-top: -155px;
+	}
+.titre
+	{
+	margin-right: 600px;
+	font-size: 20px;
+	font-family: algerian;
+	font-style: italic;
+	font-weight: bolder;
+	}
+.sous-titre
+	{
+	margin-right: 500px;
+	font-size:20px;
+	font-family: colonna mt;
+	font-weight: bold;
+	}
+.tel
+	{
+	margin-left: 600px;
+	margin-top: 80px;
+	}
+.facebook
+	{
+	margin-left: 700px;
+	}
+.ac, .créat, .tari, .galerie, .rdv, .plan
+	{
+	margin-left: 40px;
+	color: black;
+	}
+.ac
+	{
+	margin-right: 10px;	
+	}
+.menu
+	{
+	text-align: center;
+	color: black;
+	}
+.salon
+	{
+	text-align: center;
+	background-color: rgb(32,32,32);
+	}
+.acce
+	{
+	margin-left: 150px;
+	background-color: white;
+	font-size: 23px;
+	font-family: colonna mt;
+	font-weight: bolder;
+	}
+	
+	
+.présentation
+	{
+	margin-left: 700px;
+	margin-top: -450px;
+	margin-right: 200px;
+	}
+.coupe
+	{
+	margin-left: 150px;
+	margin-top: -30px;
+	margin-bottom: 100px;
+	padding-bottom: 40px;
+	}
+aside
+	{
+	margin-top: -49px;
+	margin-bottom: 55px;
+	margin: auto;
+	padding: auto;
+	}
+	
+	
+.pland
+	{
+	margin-left: 850px;
+	margin-right: 215px;
+	margin-top: -382px;
+	border: 1px solid black;
+	padding-left: 15px;
+	}
+.tarifs
+	{
+	margin-left: 500px;
+	margin-right: 565px;
+	margin-top: -382px;
+	border: 1px solid black;
+	padding-left: 15px;
+	}
+.création
+	{
+	margin-left: 150px;
+	margin-right: 915px;
+	border: 1px solid black;
+	padding-left: 15px;
+	}
+section
+	{
+	margin-top: px;
+	margin: auto;
+	padding: auto;
+	}
+.cré, .ta, .pla
+	{
+	background-color: rgb(32,32,32);
+	color: white;
+	padding: 10px 10px 10px 10px;
+	margin-left: -15px;
+	margin-top: -1px;
+	font-size: 18px;
+	font-weight: bold;
+	}
+.pla
+	{
+	padding: 10px 10px 10px 10px;
+	border; 1px solid
+	}
+.déta1, .déta2, .déta3
+	{
+	background-color: rgb(32,32,32);
+	margin-right: 220px;
+	padding: 10px 10px 10px 10px;
+	margin-right: 205px;
+	border-radius: 5px 5px 5px 5px;
+	font-weight: bolder;
+	}
+	
+	
+footer
+	{
+	background-color: rgb(32,32,32);
+	color: white;
+	margin: auto;
+	padding: auto;
+	}
+.a
+	{
+	margin-left: 150px;
+	padding-top: 15px;
+	margin-right: 800px;
+	}
+.b
+	{
+	margin-left: 950px;
+	margin-top: -20px;
+	margin-right: 190px;
+	}
+.c
+	{
+	text-align: center;
+	padding-bottom: 10px;
+	}

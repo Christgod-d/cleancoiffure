@@ -1,0 +1,159 @@
+body
+	{
+	margin: auto;
+	}
+a
+	{
+	text-decoration:none;
+	color: white
+	}
+header
+	{
+	text-align: center;
+	background-color: black;
+	margin: auto;
+	}
+.tit
+	{
+	padding-top: 50px;
+	}
+.titre, .sous-titre, .tel
+	{
+	color: white;
+	}
+.logo
+	{
+	margin-left: 950px;
+	margin-bottom: -50px;
+	margin-top: -155px;
+	}
+.titre
+	{
+	margin-right: 600px;
+	font-size: 20px;
+	font-family: algerian;
+	font-style: italic;
+	font-weight: bolder;
+	}
+.sous-titre
+	{
+	margin-right: 500px;
+	font-size:20px;
+	font-family: colonna mt;
+	font-weight: bold;
+	}
+.tel
+	{
+	margin-left: 600px;
+	margin-top: 80px;
+	}
+.facebook
+	{
+	margin-left: 700px;
+	}
+.ac, .créat, .tari, .galerie, .rd, .plan
+	{
+	margin-left: 40px;
+	color: black;
+	}
+.ac
+	{
+	margin-right: 10px;	
+	}
+.menu
+	{
+	text-align: center;
+	color: black;
+	}
+.salon
+	{
+	text-align: center;
+	background-color: rgb(32,32,32);
+	}
+.acce
+	{
+	margin-left: 150px;
+	background-color: white;
+	font-size: 23px;
+	font-family: colonna mt;
+	font-weight: bolder;
+	}
+	
+section
+	{
+	margin-left: 200px;
+	display: inline-block;
+	margin-top: -50px;
+	}
+table
+	{
+	border-collapse: collapse;
+	}
+td,th
+	{
+	border: 1px solid black;
+	padding-left: 120px;
+	padding-right: 150px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-align: center;
+	}
+.a, .b, .c, .d, .e, .f, .g
+	{
+	padding-left:
+	}
+.1, .2, .3, .4, .5, .6, .7
+	{
+	margin-right:
+	}
+.aa
+	{
+	font-size: 15px;
+	}
+.homme
+	{
+	margin-left: 50px;
+	}
+.ho, .fe
+	{
+	background-color: rgb(32,32,32);
+	color: white;
+	}
+.rdv
+	{
+	background-color: rgb(32,32,32);
+	text-align: center;
+	margin-right: 400px;
+	margin-left:400px;
+	padding: 15px 15px 15px 15px;
+	color: white;
+	border-radius: 7px 7px 7px 7px;
+	font-weight: bolder;
+	font-family: colonna mt;
+	}
+	
+	
+	
+footer
+	{
+	background-color: rgb(32,32,32);
+	color: white;
+	margin: auto;
+	}
+.a
+	{
+	margin-left: 150px;
+	padding-top: 15px;
+	margin-right: 800px;
+	}
+.b
+	{
+	margin-left: 950px;
+	margin-top: -20px;
+	margin-right: 190px;
+	}
+.c
+	{
+	text-align: center;
+	padding-bottom: 10px;
+	}

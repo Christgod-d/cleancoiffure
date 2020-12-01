@@ -1,0 +1,144 @@
+body
+	{
+	margin: auto;
+	margin: 0px;
+	}
+a
+	{
+	text-decoration:none;
+	color: white
+	}
+header
+	{
+	text-align: center;
+	background-color: black;
+	margin: auto;
+	}
+.tit
+	{
+	padding-top: 50px;
+	}
+.titre, .sous-titre, .tel
+	{
+	color: white;
+	}
+.logo
+	{
+	margin-left: 950px;
+	margin-bottom: -50px;
+	margin-top: -155px;
+	}
+.titre
+	{
+	margin-right: 600px;
+	font-size: 20px;
+	font-family: algerian;
+	font-style: italic;
+	font-weight: bolder;
+	}
+.sous-titre
+	{
+	margin-right: 500px;
+	font-size:20px;
+	font-family: colonna mt;
+	font-weight: bold;
+	}
+.tel
+	{
+	margin-left: 600px;
+	margin-top: 80px;
+	}
+.facebook
+	{
+	margin-left: 700px;
+	}
+.ac, .créat, .tari, .galerie, .rd, .plan
+	{
+	margin-left: 40px;
+	color: black;
+	}
+.ac
+	{
+	margin-right: 10px;	
+	}
+.menu
+	{
+	text-align: center;
+	color: black;
+	}
+.salon
+	{
+	text-align: center;
+	background-color: rgb(32,32,32);
+	}
+.acce
+	{
+	margin-left: 150px;
+	background-color: white;
+	font-size: 23px;
+	font-family: colonna mt;
+	font-weight: bolder;
+	}
+
+	
+	
+li
+	{
+	list-style: none;
+	}
+.imagefemme, .imagehomme
+	{
+	text-align: center;
+	}
+ul, .hom, .fem, .votre, .pas
+	{
+	margin-left: 230px;
+	}
+aside
+	{
+	margin-top: -50px;
+	}
+.homme
+	{
+	margin-top: -50px;
+	}
+.votre
+	{
+	margin-right: 250px;
+	}
+.hom, .fem
+	{
+	background-color: rgb(32,32,32);
+	margin-right: 977px;
+	color: white;
+	padding: 15px 15px 15px 15px;
+	border-radius: 7px 7px 7px 7px;
+	font-weight: bold;
+	font-family: colonna mt;
+	}
+	
+	
+	
+footer
+	{
+	background-color: rgb(32,32,32);
+	color: white;
+	margin: auto;
+	}
+.a
+	{
+	margin-left: 150px;
+	padding-top: 15px;
+	margin-right: 800px;
+	}
+.b
+	{
+	margin-left: 950px;
+	margin-top: -20px;
+	margin-right: 190px;
+	}
+.c
+	{
+	text-align: center;
+	padding-bottom: 10px;
+	}

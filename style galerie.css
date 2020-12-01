@@ -1,0 +1,115 @@
+body
+	{
+	margin: auto;
+	margin: 0px;
+	}
+a
+	{
+	text-decoration:none;
+	color: white
+	}
+header
+	{
+	text-align: center;
+	background-color: black;
+	margin: auto;
+	}
+.tit
+	{
+	padding-top: 50px;
+	}
+.titre, .sous-titre, .tel
+	{
+	color: white;
+	}
+.logo
+	{
+	margin-left: 950px;
+	margin-bottom: -50px;
+	margin-top: -155px;
+	}
+.titre
+	{
+	margin-right: 600px;
+	font-size: 20px;
+	font-family: algerian;
+	font-style: italic;
+	font-weight: bolder;
+	}
+.sous-titre
+	{
+	margin-right: 500px;
+	font-size:20px;
+	font-family: colonna mt;
+	font-weight: bold;
+	}
+.tel
+	{
+	margin-left: 600px;
+	margin-top: 80px;
+	}
+.facebook
+	{
+	margin-left: 700px;
+	}
+.ac, .créat, .tari, .galerie, .rd, .plan
+	{
+	margin-left: 40px;
+	color: black;
+	}
+.ac
+	{
+	margin-right: 10px;	
+	}
+.menu
+	{
+	text-align: center;
+	color: black;
+	}
+.salon
+	{
+	text-align: center;
+	background-color: rgb(32,32,32);
+	}
+.acce
+	{
+	margin-left: 150px;
+	background-color: white;
+	font-size: 23px;
+	font-family: colonna mt;
+	font-weight: bolder;
+	}
+	
+	
+
+section
+	{
+	text-align: center;
+	margin-top: -25px;
+	}
+	
+	
+	
+footer
+	{
+	background-color: rgb(32,32,32);
+	color: white;
+	margin: auto;
+	}
+.a
+	{
+	margin-left: 150px;
+	padding-top: 15px;
+	margin-right: 800px;
+	}
+.b
+	{
+	margin-left: 950px;
+	margin-top: -20px;
+	margin-right: 190px;
+	}
+.c
+	{
+	text-align: center;
+	padding-bottom: 10px;
+	}
